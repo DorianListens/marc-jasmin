@@ -479,7 +479,7 @@ a:active {
 	cursor: pointer;
 	display: none;
 }
-
+/*
 @media screen and (max-width: 600px) {
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {
@@ -490,7 +490,7 @@ a:active {
 		display: none;
 	}
 }
-
+*/
 
 /* =Content
 ----------------------------------------------- */

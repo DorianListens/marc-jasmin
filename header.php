@@ -32,7 +32,7 @@
 
 
 <nav id="site-navigation" class="main-navigation" role="navigation">
-<h1 class="menu-toggle"><?php _e( 'Menu', 'marc-jasmin' ); ?></h1>
+<!-- <h1 class="menu-toggle"><?php _e( 'Menu', 'marc-jasmin' ); ?></h1> -->
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'marc-jasmin' ); ?></a>
 			
 
