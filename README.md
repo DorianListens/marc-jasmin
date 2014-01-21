@@ -1,3 +1,9 @@
+Marc Jasmin
+===
+
+This is a theme for Marc Jasmin, built from _s by Gabriel Jasmin (g-j.ca). 
+Dorian Scheidt is adding some jQuery to make the pages scroll nicely, and a twitter widget. 
+
 _s
 ===
 
