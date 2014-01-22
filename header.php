@@ -25,7 +25,7 @@
 		
 
 		<div class="site-branding">
-	<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="wp-content/uploads/2014/01/logo-header-web.png" /></a></h1>
+	<h1 class="site-title"><a href="#home<?php // echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="wp-content/uploads/2014/01/logo-header-web.png" /></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div>
 

@@ -703,3 +703,14 @@ Layout: Sidebar-Content
 }
 
 #post-15 h1 {display:none;}
+
+/*Dorian's added CSS*/
+html {
+	overflow: auto;
+}
+div.spacer {
+	height: 160px;
+}
+.info-chunk {
+	height:900px;
+}

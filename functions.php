@@ -77,10 +77,17 @@ add_action( 'widgets_init', 'marc_jasmin_widgets_init' );
  */
 function marc_jasmin_scripts() {
 	wp_enqueue_style( 'marc-jasmin-style', get_stylesheet_uri() );
+	wp_register_script('scrollTo', get_template_directory_uri() . '/js/jquery.scrollTo.js');
+	wp_register_script('localScroll', get_template_directory_uri(). '/js/jquery.localScroll.js');
+	wp_register_script('page-scroll', get_template_directory_uri() . '/js/page-scroll.js');
 
 	// wp_enqueue_script( 'marc-jasmin-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'marc-jasmin-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('scrollTo');
+	wp_enqueue_script('localScroll');
+	wp_enqueue_script('page-scroll');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
