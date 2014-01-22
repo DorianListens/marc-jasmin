@@ -694,9 +694,14 @@ Layout: Sidebar-Content
 	
 }
 
+/* Altered for internationalization
 .menu-main-menu-container {
 	margin-top:160px;
+}*/
+nav#site-navigation div {
+	margin-top: 160px;
 }
+
 
 .entry-meta {display:none;}
 
@@ -721,10 +726,12 @@ div.spacer {
 	position: fixed;
 	display:block;
 	clear:both;
-	margin-top: 350px;
+	/* margin-top: 350px; */
+	bottom: 0px;
+	left: 0px;
 	padding: 10px 10px 10px 20px;
 	width:255px;
-	height: 100%;
+	height: auto;
 	background: #ddd;
 	z-index: 99999;
 }
@@ -735,6 +742,7 @@ ul.really_simple_twitter_widget {
 .really_simple_twitter_widget li {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-size: 80%;
 }
 .widget-area a {
 	color: #0050a0;
@@ -751,5 +759,23 @@ ul.really_simple_twitter_widget {
 	opacity: 0.8;
 	-moz-opacity: 0.8;
 	-webkit-opacity: 0.8;
+}
+ul.langs {
+	z-index: 99999;
+	display: block;
+	position: fixed;
+	margin-top: 310px;
+	margin-left: 20px;
+	list-style-type: none;
+}
+.langs > li {
+	display: inline;
+}
+.langs > li > a{
+	text-decoration: none;
+}
+
+.langs > li + li::before {
+content: " | ";
 }
 

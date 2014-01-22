@@ -38,6 +38,7 @@
 
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
+		<ul class="langs"><?php pll_the_languages(); ?></ul>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
