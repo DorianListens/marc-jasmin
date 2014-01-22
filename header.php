@@ -41,3 +41,7 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+		<div class="widget-area">
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Left Sidebar') ) : ?>
+      <?php endif; ?>
+  </div>
